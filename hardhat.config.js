@@ -6,10 +6,15 @@ const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY;
 const ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY;
 
 // change these for different networks
-const ALCHEMY_URL = `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
-//const ALCHEMY_URL = `https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
-//const ALCHEMY_URL = `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
-//const ALCHEMY_URL = `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+// const polygonMumbai_URL = `https://polygon-mumbai.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
+// const POLYGON_URL = `https://polygon-mainnet.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
+// const SEPOLIA_URL = `https://eth-sepolia.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
+// const MAINNET_URL = `https://eth-mainnet.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
+
+const polygonMumbai_URL = `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+const polygon_URL = `https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+const sepolia_URL = `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+const mainnet_URL = `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
 
 const STUNT_WALLET_PRIVATE_KEY = process.env.STUNT_WALLET_PRIVATE_KEY;
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY;
@@ -37,25 +42,25 @@ module.exports = {
       chainId: 31337,
     },
     polygonMumbai: {
-      url: ALCHEMY_URL,
+      url: polygonMumbai_URL,
       accounts: [STUNT_WALLET_PRIVATE_KEY],
       gasPrice: 35000000000,
       chainId: 80001,
     },
     polygon: {
-      url: ALCHEMY_URL,
+      url: POLYGON_URL,
       accounts: [STUNT_WALLET_PRIVATE_KEY],
       gasPrice: 35000000000,
       chainId: 137,
     },
     sepolia: {
-      url: ALCHEMY_URL,
+      url: SEPOLIA_URL,
       accounts: [STUNT_WALLET_PRIVATE_KEY],
       gasPrice: 35000000000,
       chainId: 11155111,
     },
     ethereum: {
-      url: ALCHEMY_URL,
+      url: MAINNET_URL,
       accounts: [STUNT_WALLET_PRIVATE_KEY],
       gasPrice: 35000000000,
       chainId: 1,
