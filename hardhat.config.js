@@ -7,9 +7,9 @@ const ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY;
 
 // change these for different networks
 const polygonMumbai_URL = `https://polygon-mumbai.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
-const POLYGON_URL = `https://polygon-mainnet.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
-const SEPOLIA_URL = `https://eth-sepolia.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
-const MAINNET_URL = `https://eth-mainnet.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
+// const POLYGON_URL = `https://polygon-mainnet.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
+// const SEPOLIA_URL = `https://eth-sepolia.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
+// const MAINNET_URL = `https://eth-mainnet.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
 
 // const polygonMumbai_URL = `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
 // const polygon_URL = `https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
