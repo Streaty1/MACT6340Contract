@@ -6,15 +6,15 @@ const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY;
 const ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY;
 
 // change these for different networks
-// const polygonMumbai_URL = `https://polygon-mumbai.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
-// const POLYGON_URL = `https://polygon-mainnet.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
-// const SEPOLIA_URL = `https://eth-sepolia.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
-// const MAINNET_URL = `https://eth-mainnet.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
+const polygonMumbai_URL = `https://polygon-mumbai.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
+const POLYGON_URL = `https://polygon-mainnet.g.alchemy.com/v2/${POLYGONSCAN_API_KEY}`;
+const SEPOLIA_URL = `https://eth-sepolia.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
+const MAINNET_URL = `https://eth-mainnet.g.alchemy.com/v2/${ETHERSCAN_API_KEY}`;
 
-const polygonMumbai_URL = `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
-const polygon_URL = `https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
-const sepolia_URL = `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
-const mainnet_URL = `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+// const polygonMumbai_URL = `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+// const polygon_URL = `https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+// const sepolia_URL = `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+// const mainnet_URL = `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
 
 const STUNT_WALLET_PRIVATE_KEY = process.env.STUNT_WALLET_PRIVATE_KEY;
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY;

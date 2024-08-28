@@ -98,7 +98,7 @@ describe("JKSCreativeNFTContract", async function () {
     });
 
     it("should set owner to the deployer's address when constucted", async function () {
-      const expectedValue = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
+      const expectedValue = "JKSCreativeNFTContract";
       const currentValue = await JKSCreativeNFTContract.owner();
       assert.equal(currentValue.toString(), expectedValue);
     });
