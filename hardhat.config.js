@@ -76,7 +76,7 @@ module.exports = {
   },
   paths: {
     sources: "./contracts",
-    tests: "./test",
+    tests: "./Downloads/MACT6340Contract/test/test.js",
     cache: "./cache",
     artifacts: "./artifacts",
   },
